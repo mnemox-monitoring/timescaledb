@@ -1,3 +1,5 @@
+```sql
+
 create schema if not exists "monitoring";
 
 create schema if not exists "components";
@@ -94,3 +96,4 @@ CREATE TABLE tenants.users_signin (
 	tpken character varying(500),
 	insert_date_time_utc timestamp(0) NULL DEFAULT timezone('utc'::text, now())
 );
+```
